@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".Register">
+
+    <TextView
+    android:id="@+id/login_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="22dp"
+    android:layout_marginBottom="16dp"
+    android:gravity="center_horizontal"
+    android:text="@string/kay_t_olma_sayfas"
+    android:textColor="#fff"
+    android:textSize="26sp"
+    android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="348dp"
+        android:layout_height="341dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="319dp"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:orientation="vertical"
+            android:paddingTop="40dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <EditText
+                    android:id="@+id/user_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="@string/user_name"
+                    android:drawableTint="#9C27B0"
+                    android:hint="@string/user_name"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    tools:targetApi="o" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:autofillHints=""
+                    android:drawableTint="#FF4081"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    tools:targetApi="o" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/giris"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#2196F3"
+                android:text="@string/kayit_ol"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

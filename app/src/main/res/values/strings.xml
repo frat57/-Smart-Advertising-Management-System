@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">YazLab3</string>
+    <string name="kullanici_adi">Kullanici Adi:</string>
+    <string name="ifre">Şifre</string>
+    <string name="email" />
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="todo">TODO</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="kayit_ol">Kayit Ol</string>
+    <string name="giris_ekrani">Giris Ekrani</string>
+    <string name="ifre_de_i_tir">Şifre Değiştir</string>
+    <string name="button">Button</string>
+    <string name="kay_t_olma_sayfas">Kayıt Olma Sayfası</string>
+    <string name="manuel">Manuel</string>
+    <string name="auto">Auto</string>
+    <string name="lat">lat</string>
+    <string name="long1">long1</string>
+    <string name="Şirket">Şirket</string>
+    <string name="arama">arama</string>
+    <string name="uzaklık">Uzaklık</string>
+    <string-array name="Gps">
+        <item name="Auto">Automatic</item>
+        <item name="Manuel">Manuel</item>
+
+    </string-array>
+</resources>
